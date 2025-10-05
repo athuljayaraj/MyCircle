@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/athul/git/MyCircle/MyCircle.csproj",
+      "projectUniqueName": "/Users/athul/git/MyCircle/backend/MyCircle.csproj",
       "projectName": "MyCircle",
-      "projectPath": "/Users/athul/git/MyCircle/MyCircle.csproj",
+      "projectPath": "/Users/athul/git/MyCircle/backend/MyCircle.csproj",
       "packagesPath": "/Users/athul/.nuget/packages/",
-      "outputPath": "/Users/athul/git/MyCircle/obj/",
+      "outputPath": "/Users/athul/git/MyCircle/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/athul/.nuget/NuGet/NuGet.Config"
