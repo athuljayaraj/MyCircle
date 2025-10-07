@@ -18,8 +18,8 @@ function App() {
     <div className="App">
       <h1>Friends</h1>
       <ul>
-        {friends.map((n: { name: string, country: string, date: string }, index) => (
-          <li key={index}>{n.name}, {n.country}, {n.date}</li>
+        {friends.map((n: { name: string, country: string, date: string, id: number, mutualFriends: number[] }, index) => (
+          <li key={index}>{n.id} - {n.name}, {n.country}, {n.date} {n.mutualFriends.join(", ")}</li>
         ))}
       </ul>
     </div>
